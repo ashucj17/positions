@@ -1,7 +1,42 @@
-.red {
-  width: 300px;
-  height: 300px;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.rendom {
+  width: 600px;
   margin: 40px auto;
-  background-color: red;
-  border-radius: 20px;
+  position: relative;
+}
+.lambo {
+  width: 100%;
+  border-radius: 10px;
+}
+.content {
+  color: #fff;
+  text-align: left;
+  padding: 20px;
+  position: absolute;
+  bottom: 100px;
+}
+.xplore {
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.tint {
+  width: 600px;
+  height: 400px;
+  background-color: #143d6956;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
 }
