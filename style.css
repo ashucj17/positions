@@ -4,12 +4,18 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+body {
+  background-color: blanchedalmond;
+}
 .rendom {
   width: 600px;
   margin: 40px auto;
+  position: static;
+  top: 20px;
   position: relative;
 }
 .lambo {
+  margin-top: 70px;
   width: 100%;
   border-radius: 10px;
 }
@@ -33,10 +39,58 @@
   width: 600px;
   height: 400px;
   background-color: #143d6956;
+  margin-top: 70px;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   border-radius: 10px;
+}
+.logo {
+  width: 70px;
+  border-radius: 50%;
+}
+.menu {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #0e72dd56;
+}
+.head {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(37, 36, 36);
+}
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background-color: rgb(123, 143, 201);
+
+  border-radius: 15px;
+}
+.avantador {
+  width: 100%;
+  border-radius: 15px;
+  padding-bottom: 20px;
+}
+.geader {
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+p {
+  padding: 10px;
 }
